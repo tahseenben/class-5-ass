@@ -1,0 +1,241 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background: #060605;
+}
+img	{
+	max-width: 100%;
+}
+header{
+    padding: 30px 0px;
+    background: #bde8f9;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+
+width: calc(100% - 300px);
+
+margin: auto;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.logo{
+    width: 20%;
+    flex: 0 0 auto;
+}
+.logo h1 {
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+nav{
+    width: 80%;
+    flex: 0 0 auto;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li {
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 15px 25px;
+    font-weight: 600;
+    display: block;
+    transition-duration: .3s;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    background: #000;
+    color: white;
+    border-radius: 5px 30px;
+}
+.banner-sction {
+    background: black;
+    color: white;
+}
+
+.banner-content span {
+    font-size: 50px;
+    display: block;
+    margin: 5px 160px;
+    font-weight: 800;
+    color: yellow;
+}
+
+.banner-content {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.banner-content span {
+    font-size: 50px;
+    display: block;
+    margin: 5px 160px;
+    font-weight: 800;
+    color: yellow;
+    text-transform: uppercase;
+}
+.banner-content h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #bde8f9;
+}
+.banner-content p {
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin-left: 35px;
+}
+
+.banner-content a {
+    font-size: 25px;
+    font-weight: 700;
+    background: white;
+    color: black;
+    padding: 10px 45px;
+    margin-left: 136px;
+    margin-right: 136px;
+    transition-duration: .3s;
+}
+.banner-content a:hover{
+	background: #bde8f9;
+	color: black;
+	border-radius: 5px 30px;
+}
+.porfolio-text-section {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.portfolio-text span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    color: yellow;
+}
+
+.portfolio-text h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.portfolio-content {
+    background: #bde8f9;
+    padding: 25px;
+    border-radius: 25px;
+    width: 100%;
+}
+.portfolio-line.flex {
+    justify-content: center;
+    width: 100%;
+}
+
+.portfolio-tab {
+    width: 33.33%;
+    padding: 15px;
+    text-align: center;
+}
+
+.portfolio-tab a {
+    display: block;
+    padding: 15px 15px;
+    background: black;
+    border-radius: 20px;
+    box-shadow: 6px 6px 2px #00000073;
+    transition-duration: .4s;
+}
+.portfolio-tab a:hover{
+  background: green;
+
+}
+.portfolio-tab img {
+    border-radius: 20px;
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.portfolio-tab span {
+    color: white;
+    display: block;
+    margin-top: 5px;
+}
+section.portfoilo-section {
+    background: #000000d9;
+    color: white;
+}
+/*footer-css*/
+footer .footer-menu{
+	
+padding: 10px 0px;
+}
+.footer-menu{
+	 width: 50%;
+    flex: 0 0 auto;
+    padding: 50px;
+}
+footer{
+    background: #bde8f9;
+    margin-top: 50px;
+}
+ul.footer-menu{}
+ul.footer-menu li{}
+ul.footer-menu li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    padding-right: 20px;
+    font-weight: 700;
+    font-size: 14px;
+}
+ul.footer-menu li a:hover{
+    color: #000000;
+}
+
+
+
+ul.social-link{
+    justify-content: flex-end;
+}
+ul.social-link li {}
+ul.social-link li span{
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+ul.social-link li a{
+    color: #333;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 20px;
+    transition-duration: .5s;
+}
+ul.social-link li a:hover{color: blue;}
